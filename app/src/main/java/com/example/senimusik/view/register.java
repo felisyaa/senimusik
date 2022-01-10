@@ -1,4 +1,4 @@
-package com.example.senimusik;
+package com.example.senimusik.view;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.material.textfield.TextInputEditText;
+import com.example.senimusik.R;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class register extends AppCompatActivity {

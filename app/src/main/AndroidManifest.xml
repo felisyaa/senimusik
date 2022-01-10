@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.senimusik">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,25 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SeniMusik">
         <activity
-            android:name=".leaderboard"
+            android:name=".view.leaderboard"
             android:exported="false" />
         <activity
-            android:name=".profile"
+            android:name=".view.profile"
             android:exported="false" />
         <activity
-            android:name=".materi"
+            android:name=".view.materi"
             android:exported="false" />
         <activity
-            android:name=".quiz"
+            android:name=".view.login"
             android:exported="false" />
         <activity
-            android:name=".register"
+            android:name=".view.register"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".view.quiz"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

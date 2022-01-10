@@ -1,14 +1,16 @@
-package com.example.senimusik;
+package com.example.senimusik.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class quiz extends AppCompatActivity {
+import com.example.senimusik.R;
+
+public class materi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
+        setContentView(R.layout.activity_materi);
     }
 }

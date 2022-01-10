@@ -1,4 +1,4 @@
-package com.example.senimusik;
+package com.example.senimusik.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.senimusik.R;
 
 public class profile extends AppCompatActivity {
 

@@ -9,18 +9,18 @@
     tools:context=".view.quiz.quiz_layout" >
 
     <ImageView
-        android:id="@+id/materi_image"
+        android:id="@+id/quiz_image"
         android:layout_width="100dp"
         android:layout_height="98dp"
         android:layout_marginTop="24dp"
         android:src="@android:drawable/ic_menu_report_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quiz_soal"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_title_textView"
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <TextView
-        android:id="@+id/quiz_soal"
+        android:id="@+id/quiz_title_textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -40,7 +40,7 @@
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materi_image" >
+        app:layout_constraintTop_toBottomOf="@+id/quiz_image" >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

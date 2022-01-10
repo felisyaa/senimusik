@@ -1,4 +1,4 @@
-package com.example.senimusik;
+package com.example.senimusik.view;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.senimusik.R;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class login extends AppCompatActivity {
